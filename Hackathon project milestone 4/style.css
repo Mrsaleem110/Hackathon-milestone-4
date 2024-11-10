@@ -4,12 +4,12 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 20px;
     padding: 0;
-    background-color: gray;
+    background-color: lightgreen;
 }
 
 form {
     margin: auto;
-    background-color: burlywood;
+    background-color: lightblue;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -78,7 +78,6 @@ button :hover {
     border-radius: 8px;
     background-color: rgb(228, 242, 255);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    outline: none;
 }
 
 #resume-display h2 {
