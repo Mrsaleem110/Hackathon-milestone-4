@@ -13,8 +13,9 @@
     <form id="resume-form">
         <fieldset>
             <legend>Personal Information</legend>
-
-             <label for="objective">Objective:</label>
+             <label for="Profilepicture">ProfilePic</label>
+             <input type="file" id="Profilepicture" placeholder="Add ProfilePic" accept="image/*" >
+             <br><br>
              <textarea id="objective" placeholder="Enter your Objective" rows="3" required></textarea>
              <br><br>
              <label for="name">Name:</label>
@@ -30,7 +31,7 @@
             <input type="number" id="cnic" placeholder="Enter your Cnic Number" required>
             <br><br>
             <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter your Email" required>
+            <input type="email" id="email" placeholder="Enter your Email(if u have)" >
             <br> <br>
             <label for="address">Address:</label>
             <textarea id="address" placeholder="Enter your Objective" rows="4" required></textarea>
@@ -38,7 +39,7 @@
   
         </fieldset>
         <fieldset>
-            <legend>Education</legend>
+            <legend>Qualification</legend>
             <select aria-label="State" id="education">
                 <OPTION>Select</OPTION><BR>
                 <OPTION>MIDDLE</OPTION><BR>
@@ -51,6 +52,8 @@
                 <OPTION>PHD</OPTION><BR>
             </select>
             <BR><BR>
+            <label for="Qualification">Qualification Field:</label>
+            <textarea id="Qualification" placeholder="Qualification Field" rows="1" required></textarea>
         </fieldset>
         <fieldset>
             <legend>Experience</legend>
@@ -58,7 +61,7 @@
         </fieldset>
         <fieldset>
             <legend>Skills</legend>
-            <textarea id="skills" placeholder="Enter your Skills" rows="4" required></textarea>
+            <textarea id="skills" placeholder="Enter your Skills" rows="5" required></textarea>
         </fieldset>
         <br>
        <button type="submit"><b>GENERATE RESUME</b></button>
@@ -73,5 +76,4 @@
 </body>
 
 </html>
-
 
